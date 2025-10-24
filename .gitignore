@@ -1,0 +1,56 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# === Virtual Environment ===
+venv/
+.env/
+.env*/
+.venv*/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# === IDEs ===
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === Build and distribution ===
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+
+# === Tests ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
